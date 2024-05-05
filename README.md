@@ -16,7 +16,7 @@ The provided datasets encapsulate detailed month-wise reports of various mutual 
 
 Approuch:
 We created two tabs - HOME and Analysis
-These two tabs navigates to home page and analysis page
+These two tabs navigates to home page and analysis page.
 Each page has an option to upload the pdf file.
 Code usage : First,we changed this pdf file into a dataframe which is also added the calculated columns(Net Inflow or Outflow, Net Asset under Management per Scheme,Net Inflow or Outflow per Scheme) with download option.
 Home page :
@@ -27,7 +27,8 @@ Home page :
 Analysis Page :
 1)Feature to select the attribute which we want to analyse.
 2)It shows a bar chart for each month in one financial year.
+![image](https://github.com/viswanathan-v/AI_Ragathon_competition_Mutual_funds/assets/98252535/4c429994-54f5-4e9e-99bf-c51e27d0ef56) .
 
 The pdf files are uploaded in pdf folder.
-
+ **App link**: https://ai-ragathon-competition-team-gainer.streamlit.app/
 
