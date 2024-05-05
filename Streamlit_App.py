@@ -171,7 +171,7 @@ def convert_pdf_to_csv(pdf_file, page=0,selected_scheme=[],selected_sub_schemes=
                 
             elif "Close Ended Schemes" in selected_scheme:
                 start_index = df[df['Sr'] == 'B'].index.min()  
-                end_index = df[df['Sr'] == 'C'].index.min()'
+                end_index = df[df['Sr'] == 'C'].index.min()
                 filtered_df = df.loc[start_index:end_index-1]
                 st.write("Close Ended Schemes")
                 if selected_sub_schemes:
