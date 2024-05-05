@@ -2,7 +2,7 @@
 This is for the competition  Ethical Innovation Challenge: RAGathon - AI Innovation Challenge
 Team name :GAINER
 Team members:
-1)Viswanathan V;
+1)Viswanathan V
 2)Stanley A
 3)Senoj S
 
@@ -14,7 +14,20 @@ The provided datasets encapsulate detailed month-wise reports of various mutual 
 
 
 
-Objective:
+Approuch:
+We created two tabs - HOME and Analysis
+These two tabs navigates to home page and analysis page
+Each page has an option to upload the pdf file.
+Code usage : First,we changed this pdf file into a dataframe which is also added the calculated columns(Net Inflow or Outflow, Net Asset under Management per Scheme,Net Inflow or Outflow per Scheme) with download option.
+Home page :
+1)Feature to select the month,scheme,sub scheme and also funds to view the records individually.
+2)Every selection will be smootly executes.
+![image](https://github.com/viswanathan-v/AI_Ragathon_competition_Mutual_funds/assets/98252535/53aed970-7702-4b7d-81a5-a954a1227f5b)
 
-Participants are tasked with developing a robust and user-friendly information retrieval application using Streamlit. This application is designed to enhance accessibility and analysis of mutual fund data for stakeholders.
+Analysis Page :
+1)Feature to select the attribute which we want to analyse.
+2)It shows a bar chart for each month in one financial year.
+
+The pdf files are uploaded in pdf folder.
+
 
