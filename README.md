@@ -21,7 +21,7 @@ The provided datasets encapsulate detailed month-wise reports of various mutual 
  
 Approuch:
 
-We created two tabs - HOME and Analysis 
+We created two tabs - HOME and ANALYSIS
 
 These two tabs navigates to home page and analysis page. 
 
